@@ -1,0 +1,121 @@
+.heading{
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(65, 62, 64, 0.658);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading div img{
+    border-radius: 50px;
+    margin-left: 50px;
+}
+.heading div a{
+  text-decoration: none;
+  color: rgba(254, 253, 255, 0.884);
+  text-align: end;
+  word-spacing: 30px;
+  padding-right: 40px;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.heading div a:hover{
+    color: rgb(246, 246, 58);
+    text-decoration: underline;
+}
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/04/02/16/57/240_F_402165700_zwtYxbpj1CxNhlW7MBkBHKMmPR6AFsh5.jpghttps://as2.ftcdn.net/v2/jpg/04/43/25/25/1000_F_443252585_OsT8kUPr9Ft7y2oyEburmFdQCGnmbFBj.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.topic, .buttons{
+    text-align: center;
+    justify-content: center;
+    color: white;
+   
+}
+.topic p {
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    line-height: 5px;
+}
+.topic{
+    margin-top: 100px;
+}
+.button1,.button2{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    font-family:cursive;
+    border: none;
+    margin-top: 10px;
+}
+.button2:hover{
+    text-decoration: underline;
+}
+.button1:hover{
+    text-decoration: underline;
+}
+.button1{
+    background-color: white;
+    color: black;
+}
+.button2{
+    background-color:orangered;
+    color: white;
+}
+.topic h1{
+    font-size: large;
+    font-weight: 600;
+    font-size: 50px;
+}
+h1 + p{
+    text-shadow: 4px 4px 2px rgba(9,9,16,0.6);
+    letter-spacing: 0px;
+}
+.s1::after{
+   content: "";
+   animation: text 15s infinite linear;
+   color: rgb(222, 225, 66);
+}
+@keyframes text {
+0%{
+    content: "Cuddalore";
+    }
+10%{
+    content: " Kanniyakumari";
+}
+20%{
+    content: " Coimbatore";
+}
+30%{
+    content: "Tiruchirappalli";
+}
+40%{
+    content: " Theni";
+}
+50%{
+    content: "Thoothukudi";
+}
+60%{
+    content: "  Salem";
+}
+70%{
+    content: " Thanjavur";
+}
+80%{
+    content: " Tirunelveli";
+}
+90%{
+    content: " Madurai";
+}
+100%{
+    content: " Chennai";
+}
+}
